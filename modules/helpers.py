@@ -12,7 +12,7 @@ load_dotenv(override=False)
 coinAPIKeys = [
     os.environ.get("COINAPI_TOKEN"),
     os.environ.get("COINAPI_TOKEN2"),
-    # os.environ.get('COINAPI_TOKEN3')
+    os.environ.get("COINAPI_TOKEN3"),
 ]
 
 
