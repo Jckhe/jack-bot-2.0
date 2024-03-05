@@ -5,7 +5,6 @@ from requests.exceptions import RequestException
 from motor.motor_asyncio import AsyncIOMotorClient
 from pymongo.errors import BulkWriteError
 from dotenv import load_dotenv
-from zoneinfo import ZoneInfo
 
 from utils.constants import CoinAPIRateEndpoint
 
